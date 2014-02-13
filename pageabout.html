@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- file penting jquery.min.js, jquery.mobile.min.js,jquery.mobile.min.css -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/themes/customtheme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css" />
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+<!--Step 3 aka Page 3 -->
+<div data-role="page" id="pageabout" >     <!-- mesti ada untuk satu page dalam versi 1.4 (tapi version 1.3 ada data-role ="content", id adalah untuk nama page-->
+<!--pANEL-->
+<div data-role="panel" id="panel1" data-display="overlay">
+    <!-- panel content goes here -->
+	<h3>Main Menu </h3>
+	<br/>
+	<ul data-role="listview">
+	    <li><a href="pagehome.html" data-transition="turn">Home</a></li>
+		<li><a href="pageabout.html" data-transition="turn">About Us</a></li>
+		<li><a href="pagecoffee.html" data-transition="turn">Type of Coffee</a></li>
+		<li><a href="#pagedispenser.html" data-transition="turn">Type of Dispenser</a></li>
+		<li><a href="#pagecontact.html" data-transition="turn">Contact Us</a></li>
+		<li><a href="#pagelocation.html" data-transition="turn">Location</a></li>
+
+	</ul>		
+</div><!-- /panel -->
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-theme="d">  <!--add back button-->
+    <a href="#panel1" data-icon="bars" data-iconpos="notext">Menu</a>
+
+	<strong><h3><center>ABOUT US</h3></strong></center>	
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  
+	<center><h3>IW CAFFE MACHINE SDN.BHD.</h3></center>
+
+<p>Incorporate to Sdn Bhd in year 2011, founded by a professional water system group on water filtration and also spring water reproduction technology back in year 2004.<br/>
+
+Dealing with all major variety of water filtration system and also beverage dispense machine. <br/>
+
+Our product sells well in the domestic and commercial market, ensures our customers a healthy, safe and easy prepare beverage in an economical, ecological, and time-saving manner, through its wide range of products.
+</p>
+
+<center><a href="#pop1" class="ui-btn ui-btn-inline ui-btn-b" data-rel="popup" data-transition="pop">OUR EXISTING CUSTOMER</a> </center><!--pop up Message-->
+
+<div data-role="popup" id="pop1">
+ <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+  <img src="photo/logocustomer.png" width="300" />  
+</div>
+
+<center><a href="#pop2" class="ui-btn ui-btn-inline ui-btn-b" data-rel="popup" data-transition="pop">MISSION STATEMENT</a> </center><!--pop up Message-->
+
+<div data-role="popup" id="pop2">
+ <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+ <p>
+To be a leading distributor of superior quality point of use water dispensers, beverage dispense machine and to lead our chosen markets by providing drinking water and beverage expertise, innovation, excellent service and customer support.<br/>
+</p>
+</div>
+
+
+  <!--footer -->
+   <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="pagehome.html" data-icon="home">Home</a>  </li>
+            </ul>       
+		</div>  
+  </div>
+
+
+</div>
+
+
+</body>
+</html>
+

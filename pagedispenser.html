@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- file penting jquery.min.js, jquery.mobile.min.js,jquery.mobile.min.css -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/themes/customtheme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css" />
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+
+
+</head>
+
+<body>
+<!--Step 4 aka Page 4 -->
+<div data-role="page" id="pagedispenser" >     <!-- mesti ada untuk satu page dalam versi 1.4 (tapi version 1.3 ada data-role ="content", id adalah untuk nama page-->
+<!--pANEL-->
+<div data-role="panel" id="panel1" data-display="overlay">
+    <!-- panel content goes here -->
+	<h3>Main Menu </h3>
+	<br/>
+	<ul data-role="listview">
+	    <li><a href="pagehome.html" data-transition="turn">Home</a></li>
+		<li><a href="pageabout.html" data-transition="turn">About Us</a></li>
+		<li><a href="pagecoffee.html" data-transition="turn">Type of Coffee</a></li>
+		<li><a href="pagedispenser.html" data-transition="turn">Type of Dispenser</a></li>
+		<li><a href="pagecontact.html" data-transition="turn">Contact Us</a></li>
+		<li><a href="pagelocation.html" data-transition="turn">Location</a></li>
+
+	</ul>		
+</div><!-- /panel -->
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-theme="d">  <!--add back button-->
+    <a href="#panel1" data-icon="bars" data-iconpos="notext">Menu</a>
+	<strong><h3><center>OUR PRODUCT</h3></strong></center>
+	
+	
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  <center>
+	<h3>TYPE OF DISPENSER</h3>
+<p>Check out the different types of products we sell. Click on one of the entries for more information.
+<br/></p>
+</center>
+<p><strong>
+We provide :<br/>
+FREE filter change<br/>
+FREE hygiene maintenance<br/>
+FREE spare parts<br/>
+</strong>
+</p>
+
+<!-- <a href="#popupParis" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="../_assets/img/paris.jpg" alt="Paris, France" style="width:30%"></a>
+<a href="#popupSydney" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="../_assets/img/sydney.jpg" alt="Sydney, Australia" style="width:30%"></a>
+<a href="#popupNYC" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="../_assets/img/newyork.jpg" alt="New York, USA" style="width:30%"></a>
+<div data-role="popup" id="popupParis" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="../_assets/img/paris.jpg" style="max-height:512px;" alt="Paris, France">
+</div>
+<div data-role="popup" id="popupSydney" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="../_assets/img/sydney.jpg" style="max-height:512px;" alt="Sydney, Australia">
+</div>
+<div data-role="popup" id="popupNYC" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="../_assets/img/newyork.jpg" style="max-height:512px;" alt="New York, USA">
+</div>   -->
+
+
+<a href="#popup8235c" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/wpu8235c.jpg" style="width:30%"></a>
+<a href="#popup8235c2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/wpu8235c2.jpg" style="width:30%"></a>
+<a href="#popup8235f" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/wpu8235f.jpg" style="width:30%"></a>
+<a href="#popup8235f2" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/wpu8235f2.jpg" style="width:30%"></a>
+<a href="#popupph5000" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/ph5000.jpg" style="width:30%"></a>
+<a href="#popupph5000f" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/ph5000f.jpg" style="width:30%"></a>
+<a href="#popupph8000" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/ph8000.jpg" style="width:30%"></a>
+<a href="#popupph8000f" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/ph8000f.jpg" style="width:30%"></a>
+<a href="#popupwpu8200" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/wpu8200.jpg" style="width:30%"></a>
+<a href="#popupwpu8210" data-rel="popup" data-position-to="window" data-transition="fade"><img class="popphoto" src="photo/wpu8210.jpg" style="width:30%"></a>
+<div data-role="popup" id="popup8235c" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/wpu8235c.jpg" style="max-height:512px;" alt="8235c, 8235c2">
+</div>
+<div data-role="popup" id="popup8235c2" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/wpu8235c2.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popup8235f" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/wpu8235f.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popup8235f2" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/wpu8235f2.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popupph5000" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/ph5000.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popupph5000f" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/ph5000f.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popupph8000" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/ph8000.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popupph8000f" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/ph8000f.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popupwpu8200" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/wpu8200.jpg" style="max-height:512px;">
+</div>
+<div data-role="popup" id="popupwpu8210" data-overlay-theme="b" data-theme="b" data-corners="false">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img class="popphoto" src="photo/wpu8210.jpg" style="max-height:512px;">
+</div>
+
+  </div>
+  
+  <!--footer --> 
+ <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="pagehome.html" data-icon="home">Home</a>  </li>
+            </ul>       
+		</div>  
+  </div>
+
+</div>
+
+
+</body>
+</html>
+

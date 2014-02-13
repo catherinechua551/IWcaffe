@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- file penting jquery.min.js, jquery.mobile.min.js,jquery.mobile.min.css -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/themes/customtheme.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.0.min.css" />
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.min.js"></script>
+
+
+
+</head>
+
+<body>
+<!--Step 2 aka Page 2 -->
+<div data-role="page" id="pagelocation" >     <!-- mesti ada untuk satu page dalam versi 1.4 (tapi version 1.3 ada data-role ="content", id adalah untuk nama page-->
+<!--pANEL-->
+<div data-role="panel" id="panel1" data-display="overlay">
+    <!-- panel content goes here -->
+	<h3>Main Menu </h3>
+	<br/>
+	<ul data-role="listview">
+	    <li><a href="pagehome.html" data-transition="turn">Home</a></li>
+		<li><a href="pageabout.html" data-transition="turn">About Us</a></li>
+		<li><a href="pagecoffee.html" data-transition="turn">Type of Coffee</a></li>
+		<li><a href="pagedispenser.html" data-transition="turn">Type of Dispenser</a></li>
+		<li><a href="pagecontact.html" data-transition="turn">Contact Us</a></li>
+		<li><a href="pagelocation.html" data-transition="turn">Location</a></li>
+
+	</ul>		
+</div><!-- /panel -->
+	<!--header -->
+  <div data-role="header" data-position="fixed" data-add-back-btn="true" data-theme="d">  <!--add back button-->
+    <a href="#panel1" data-icon="bars" data-iconpos="notext">Menu</a>
+	<strong><h3><center>LOCATION</h3></strong></center>
+	
+	
+  </div>
+  
+  <!--content -->
+  <div role="main" class="ui-content">
+  <center>	
+<p><strong>IW CAFFE MACINE SDN BHD</strong><br/>65, Jalan Gan Chai Leng, <br/> Chai Leng Park, <br/> 13700 Malaysia.<br/> Tel: +604-390-9775 </p>
+</center>
+<div role="main" class="ui-content">  <!-- can put data-inset="true" untuk kecantikan-->    
+    
+  <!--
+  <div id="map" data-role="popup" id="try_ajax" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+    <div data-role="header" data-theme="a">
+    <h1>Lokasi</h1>
+    </div>
+    <div role="main" class="ui-content">     
+		<iframe width="250" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;daddr=65,+Jalan+Gan+Chai+Leng,+Taman+Chai+Leng+13700+Malaysia+%405.384046,100.39007&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=5.384046,100.39007&amp;spn=0.006295,0.006323&amp;output=embed"></iframe><br /><small>
+		<a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;daddr=65,+Jalan+Gan+Chai+Leng,+Taman+Chai+Leng+13700+Malaysia+%405.384046,100.39007&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=5.384046,100.39007&amp;spn=0.006295,0.006323" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			
+        <a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">OK</a>
+    </div>
+  </div>
+  -->
+     
+		<iframe width="250" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=d&amp;source=s_d&amp;daddr=65,+Jalan+Gan+Chai+Leng,+Taman+Chai+Leng+13700+Malaysia+%405.384046,100.39007&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=5.384046,100.39007&amp;spn=0.006295,0.006323&amp;output=embed"></iframe><br /><small>
+		<a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;daddr=65,+Jalan+Gan+Chai+Leng,+Taman+Chai+Leng+13700+Malaysia+%405.384046,100.39007&amp;hl=en&amp;mra=ls&amp;ie=UTF8&amp;t=m&amp;ll=5.384046,100.39007&amp;spn=0.006295,0.006323" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+		
+  
+  
+  
+  </div>
+    </div>
+	   
+	     
+  
+  <!--footer --> 
+ <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+			<ul>
+				<li><a href="pagehome.html" data-icon="home">Home</a>  </li>
+            </ul>       
+		</div>  
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+\
